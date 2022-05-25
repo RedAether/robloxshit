@@ -16,6 +16,7 @@
 -- Destroy Previous UI's --
 if _G.Luminosity_Loaded and _G.Luminosity then
     _G.Luminosity:Destroy()
+    print("AetherLib Already Loaded")
 end
 
 -- Set Globals --
@@ -209,7 +210,7 @@ local Luminosity = {
         Debug = false;
     };
     ColorScheme = {
-        Primary = Color3.fromRGB(127, 0, 0);
+        Primary = Color3.fromRGB(30, 30, 30);
         Text = Color3.new(255, 255, 255);
     };
 }
