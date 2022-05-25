@@ -16,7 +16,6 @@
 -- Destroy Previous UI's --
 if _G.Luminosity_Loaded and _G.Luminosity then
     _G.Luminosity:Destroy()
-    print("AetherLib Already Loaded")
 end
 
 -- Set Globals --
