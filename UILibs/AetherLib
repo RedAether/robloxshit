@@ -1,3 +1,12 @@
+local sound = Instance.new("Sound")
+sound.Parent = game.Workspace
+sound.Name = "Boom"
+sound.Looped = false
+sound.Playing = true
+sound.SoundId = "rbxassetid://6823153536"
+wait(3)
+sound:Destroy()
+
 --[[
 
 This is a custom version of Coasting UI Lib made by coasts, 
