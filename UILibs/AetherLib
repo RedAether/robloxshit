@@ -1,3 +1,11 @@
+--[[
+
+This is a custom version of Coasting UI Lib made by coasts, 
+V3rm post: https://v3rmillion.net/showthread.php?tid=1071849&pid=7590441
+Docs: https://pastebin.com/raw/7HkS6SBJ
+
+]]
+
 local sound = Instance.new("Sound")
 sound.Parent = game.Workspace
 sound.Name = "Boom"
@@ -6,13 +14,6 @@ sound.Playing = true
 sound.SoundId = "rbxassetid://6823153536"
 wait(3)
 sound:Destroy()
-
---[[
-
-This is a custom version of Coasting UI Lib made by coasts, 
-V3rm post: https://v3rmillion.net/showthread.php?tid=1071849&pid=7590441
-
-]]
 
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -28,8 +29,8 @@ ContentProvider:PreloadAsync({"rbxassetid://3570695787", "rbxassetid://270889159
 
 local Library = {
     Theme = {
-        MainColor = Color3.fromRGB(255, 75, 75),
-        BackgroundColor = Color3.fromRGB(35, 35, 35),
+        MainColor = Color3.fromRGB(150, 0, 0),
+        BackgroundColor = Color3.fromRGB(30, 30, 30),
         UIToggleKey = Enum.KeyCode.RightControl,
         TextFont = Enum.Font.SourceSansBold,
         EasingStyle = Enum.EasingStyle.Quart
